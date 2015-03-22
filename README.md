@@ -12,9 +12,9 @@ Bookshelf website
 **Assignement 2** *Adventure starts here*
 
     Fork this repository and create your local project.
-
 ~~~
 git clone https://github.com/GojiraGreen/pro-book.git
 git remote remove origin
 git remote add origin https://github.com/[UserName]/pro-book.git
+gti remote -v
 ~~~
