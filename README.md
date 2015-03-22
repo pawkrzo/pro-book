@@ -16,5 +16,5 @@ Bookshelf website
 git clone https://github.com/GojiraGreen/pro-book.git
 git remote remove origin
 git remote add origin https://github.com/[UserName]/pro-book.git
-gti remote -v
+git remote -v
 ~~~
