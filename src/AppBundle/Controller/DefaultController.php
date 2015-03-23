@@ -16,12 +16,34 @@ class DefaultController extends Controller
         return $this->render('default/index.html.twig');
     }
 
+
+    /**
+     * Aron Zielinski
+     */
+
 	/**
-	 * @Route("/template.html", name="template")
+	 * @Route("/ontheroad.html", name="ontheroad")
 	 */
-	public function templateAction()
+	public function ontheroadAction()
 	{
-	    return $this->render('default/template.html.twig');
+	    return $this->render('default/ontheroad.html.twig');
 	}
 
+    /**
+     * Krzysztof Zolnierz
+     */
+    
+
+    /**
+     * Pawel Krzos
+     */
+
+
+    /**
+     * Krzysztof Szulc
+     */
+
+    /**
+     * Michal Majewski
+     */
 }
