@@ -43,6 +43,14 @@ class DefaultController extends Controller
      * Krzysztof Szulc
      */
 
+	/**
+	 * @Route("/magdalena.html", name="magdalena")
+	 */
+	public function magdalenaAction()
+	{
+	    return $this->render('default/magdalena.html.twig');
+	}
+	
     /**
      * Michal Majewski
      */
