@@ -53,4 +53,11 @@ class DefaultController extends Controller
     /**
      * Michal Majewski
      */
+ /**
+	 * @Route("/urodzenibiegacze.html", name="urodzenibiegacze")
+	 */
+	public function urodzenibiegaczeAction()
+	{
+	    return $this->render('default/urodzenibiegacze.html.twig');
+	}
 }
