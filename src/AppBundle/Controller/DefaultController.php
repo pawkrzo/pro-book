@@ -32,7 +32,14 @@ class DefaultController extends Controller
     /**
      * Krzysztof Zolnierz
      */
-    
+        
+        /**
+	 * @Route("/dzikieserce.html", name="dzikieserce")
+	 */
+	public function dzikieserceAction()
+	{
+	    return $this->render('default/dzikieserce.html.twig');
+	}
 
     /**
      * Pawel Krzos
