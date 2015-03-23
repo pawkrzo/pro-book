@@ -22,19 +22,20 @@ git remote -v
 
 
 **Assignement 3** *Adding a favourite book.*
+
     Add your favourite book to a project.
 
-    * create new branch (git checkout -b 'new-branch')
-    * create a test in features/ folder
-    * run test on vagrant virtual machine (should fail)
-    * create a view in in Resources/views/default/ folder 
-    * add Action method in Controller
-    * add changes to git stage/index (git add -A)
-    * run test on vagrant virtual machine (should pass)
-    * commit changes to branch (git commit -m 'your message')
-    * checkout to master
-    * merge master with your new branch (git merge 'new-branch')
-    * push changes to your repository (git push -u origin master)
-    * create pull request from github page
+* create new branch (git checkout -b 'new-branch')
+* create a test in features/ folder
+* run test on vagrant virtual machine (should fail)
+* create a view in in Resources/views/default/ folder 
+* add Action method in Controller
+* add changes to git stage/index (git add -A)
+* run test on vagrant virtual machine (should pass)
+* commit changes to branch (git commit -m 'your message')
+* checkout to master
+* merge master with your new branch (git merge 'new-branch')
+* push changes to your repository (git push -u origin master)
+* create pull request from github page
 
     Thats it!
