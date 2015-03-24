@@ -41,6 +41,14 @@ class DefaultController extends Controller
 	    return $this->render('default/dzikieserce.html.twig');
 	}
 
+        /**
+	 * @Route("/kamienienaszaniec.html", name="kamienienaszaniec")
+	 */
+	public function kamienienaszaniecAction()
+	{
+	    return $this->render('default/kamienienaszaniec.html.twig');
+	}
+        
     /**
      * Pawel Krzos
      */
