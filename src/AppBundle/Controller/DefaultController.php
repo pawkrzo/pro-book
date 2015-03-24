@@ -58,6 +58,14 @@ class DefaultController extends Controller
 	    return $this->render('default/magdalena.html.twig');
 	}
 	
+	/**
+	 * @Route("/magdalena.html", name="magdalena")
+	 */
+	public function mezczyznaAction()
+	{
+	    return $this->render('default/mezczyzna.html.twig');
+	}
+	
     /**
      * Michal Majewski
      */
