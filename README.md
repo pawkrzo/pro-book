@@ -38,4 +38,4 @@ git remote -v
 * push changes to your repository (git push -u origin master)
 * create pull request from github page
 
-    Thats it!
+    That's it!
