@@ -67,7 +67,7 @@ class DefaultController extends Controller
 	}
 	
 	/**
-	 * @Route("/magdalena.html", name="magdalena")
+	 * @Route("/mezczyzna.html", name="mezczyzna")
 	 */
 	public function mezczyznaAction()
 	{
