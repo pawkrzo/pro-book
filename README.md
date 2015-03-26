@@ -38,4 +38,13 @@ git remote -v
 * push changes to your repository (git push -u origin master)
 * create pull request from github page
 
+**Assignement 4** *Menu creation..*
+
+    Add links to yours books.
+
+* create new book
+* make a test
+* add links to app/Resources/views/base.html.twig
+* run tests and push
+
     That's it!
