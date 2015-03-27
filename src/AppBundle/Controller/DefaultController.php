@@ -59,7 +59,13 @@ class DefaultController extends Controller
 	{
 	    return $this->render('default/snowcrash.html.twig');
 	}
-
+    /**
+	 * @Route("/lordrings.html", name="lordrings")
+	 */
+	public function lordringsAction()
+	{
+	    return $this->render('default/lordrings.html.twig');
+	}
 
     /**
      * Krzysztof Szulc
