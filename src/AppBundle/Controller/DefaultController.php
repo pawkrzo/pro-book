@@ -52,6 +52,13 @@ class DefaultController extends Controller
     /**
      * Pawel Krzos
      */
+        /**
+	 * @Route("/snowcrash.html", name="snowcrash")
+	 */
+	public function snowcrashAction()
+	{
+	    return $this->render('default/snowcrash.html.twig');
+	}
 
 
     /**
